@@ -5,7 +5,6 @@ import pandas as pd
 import streamlit as st 
 #import plotly.express as px
 from PIL import Image
-import facebook_crawler
 import datetime
 import time
 import matplotlib as plt
