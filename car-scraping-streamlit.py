@@ -1,11 +1,6 @@
-from base64 import urlsafe_b64decode
-from fileinput import filename
-from lib2to3.pgen2.pgen import DFAState
 import pandas as pd 
 import streamlit as st 
-from PIL import Image
-import datetime
-import time
+
 
 df = pd.read_csv('C:/Users/qvinh/OneDrive/Desktop/Documents/pythoncode/output_final.csv', skipinitialspace=True )
 
