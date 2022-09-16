@@ -3,7 +3,7 @@ from fileinput import filename
 from lib2to3.pgen2.pgen import DFAState
 import pandas as pd 
 import streamlit as st 
-import plotly.express as px
+#import plotly.express as px
 from PIL import Image
 import facebook_crawler
 import datetime
