@@ -1,8 +1,8 @@
 import pandas as pd 
 import streamlit as st 
 
-
-df = pd.read_csv('C:/Users/qvinh/OneDrive/Desktop/Documents/pythoncode/output_final.csv', skipinitialspace=True )
+path = 'https://github.com/DuongQuocVinh1904/streamlitapp1/blob/main/output_final.csv'
+df = pd.read_csv(path, skipinitialspace=True )
 
 st.set_page_config(page_title= 'carproject')
 st.header('Welcome to Vietnamese Vehicle Market project')
